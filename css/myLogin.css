@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+body {
+  background-color: #F5F5F5;
+}
+header {
+  width: 100%;
+  height: 5rem;
+  background-color: #FF8A00;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+header .right img {
+  width: 10rem;
+  height: 3.4rem;
+}
+header .left img {
+  width: 2.7rem;
+  height: 2.8rem;
+  margin-left: 1.5rem;
+}
+section {
+  width: 100%;
+  height: 4rem;
+  display: flex;
+  border-bottom: 1px solid #bbb9b9;
+  align-items: center;
+  font-size: 2rem;
+  padding-left: 2rem;
+  box-sizing: border-box;
+  background-color: white;
+}
+section p {
+  font-weight: 700;
+  font-size: 1.6rem;
+}
+section span {
+  font-size: 1.4rem;
+}
+.huan {
+  width: 100%;
+  height: 17rem;
+  background: url(../img/bg2.png) no-repeat;
+  background-size: contain;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.huan img {
+  width: 5.5rem;
+  height: 5.5rem;
+}
+.huan p {
+  font-size: 1.5rem;
+  color: white;
+}
+ul {
+  width: 100%;
+  background-color: #FFFFFF;
+}
+ul li {
+  width: 100%;
+  height: 5rem;
+  background: url(../img/right.png) no-repeat 34rem;
+  background-size: 1rem;
+  display: flex;
+}
+ul li:nth-of-type(3) {
+  border-bottom: 1px solid #ded9d9;
+}
+ul li a {
+  color: #666666;
+  width: 90%;
+  height: 5rem;
+  line-height: 5rem;
+  font-size: 1.5rem;
+  border-bottom: 1px solid #e1dddd;
+  margin-left: 1.5rem;
+}
+.btn {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 2rem;
+}
+.btn button {
+  width: 95%;
+  height: 5rem;
+  border: none;
+  background-color: white;
+  color: #FF8A00;
+  font-size: 2rem;
+  font-weight: 500;
+  margin-bottom: 1.5rem;
+}

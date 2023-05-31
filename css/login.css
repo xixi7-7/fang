@@ -1,0 +1,156 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #F5F5F5;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+header {
+  width: 100%;
+  height: 5rem;
+  background-color: #FF8A00;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+header .right img {
+  width: 10rem;
+  height: 3.4rem;
+}
+
+header .left img {
+  width: 2.7rem;
+  height: 2.8rem;
+  margin-left: 1.5rem;
+}
+
+section {
+  width: 100%;
+  height: 5rem;
+  display: flex;
+  border-bottom: 1px solid #bbb9b9;
+  align-items: center;
+  background-color: white;
+  padding-left: 2rem;
+  box-sizing: border-box;
+  font-size: 2rem;
+}
+
+section span:nth-of-type(1) {
+  font-weight: 700;
+  font-size: 1.6rem;
+}
+
+section span {
+  font-size: 1.4rem;
+}
+
+.denglu {
+  width: 100%;
+  height: 6rem;
+  display: flex;
+  background-color: white;
+}
+
+.denglu .bian {
+  border-bottom: 0.4rem solid #FF8A00;
+}
+
+.denglu p {
+  width: 50%;
+  line-height: 6rem;
+  height: 6rem;
+  border-bottom: 0.4rem solid #D1D1D1;
+  display: flex;
+  justify-content: center;
+  font-size: 1.5rem;
+  box-sizing: border-box;
+}
+
+.xi {
+  width: 100%;
+  float: left;
+  flex-direction: column;
+}
+
+
+.xi:nth-of-type(2) {
+  display: none;
+}
+
+.xi ul {
+  width: 100%;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+}
+
+.xi ul li {
+  width: 100%;
+  height: 5rem;
+  border-bottom: 1px solid #d3cfcf;
+  display: flex;
+  align-items: center;
+  position: relative;
+  padding-left: 2rem;
+  box-sizing: border-box;
+}
+
+.xi ul li a {
+  width: 10rem;
+  height: 4rem;
+  border: 1px solid #b0afaf;
+  text-align: center;
+  line-height: 4rem;
+  font-size: 1.5rem;
+  position: absolute;
+  right: 2rem;
+}
+
+.xi ul li input {
+  height: 100%;
+  border: none;
+  outline: none;
+  width: 100%;
+}
+
+.xi .btn {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 2rem;
+}
+
+.xi .btn button {
+  width: 95%;
+  height: 5rem;
+  border: none;
+  background-color: #FF8A00;
+  color: white;
+  font-size: 2rem;
+  font-weight: 500;
+  margin-bottom: 1.5rem;
+}
+
+.xi .xia {
+  width: 94%;
+  margin-left: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.xi .xia>a {
+  font-size: 1.5rem;
+}
+
+.xi .xia>a:nth-of-type(1) {
+  color: #FF8A00;
+}

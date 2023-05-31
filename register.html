@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>注册</title>
+    <link rel="stylesheet" href="./css/register.css">
+    <script src="./js/js.js"></script>
+</head>
+
+<body>
+    <!-- 头部 -->
+    <header>
+        <div class="right">
+            <img src="./img/logo.jpg" alt="">
+        </div>
+        <div class="left">
+            <a href="#">
+                <img src="./img/my.jpg" alt="">
+            </a>
+            <a href="#">
+                <img src="./img/xiazai.jpg" alt="">
+            </a>
+        </div>
+    </header>
+    <section>
+
+        <span>首页</span> >
+
+        <span>我的</span>
+
+        >
+
+        <span>注册</span>
+
+    </section>
+
+    <ul>
+        <li>
+            <input type="text" placeholder="请输入手机号码">
+            <a class="dian" href="#">发送验证码</a>
+        </li>
+        <li>
+            <input type="text" placeholder="请输入短信中的验证码">
+
+        </li>
+        <li>
+            <input type="text" placeholder="请输入新密码">
+
+        </li>
+    </ul>
+
+    <div class="btn">
+        <button>立即注册</button>
+    </div>
+</body>
+
+</html>
+
+
+<script>
+
+
+    var dian = document.getElementsByClassName('dian')[0]
+
+    dian.onclick = function () {
+        var i = 60
+        var timer = setInterval(function () {
+            i--
+            dian.innerHTML = '(' + i + '秒)重发'
+            if (i == 0) {
+                dian.innerHTML = '发送验证码'
+                clearInterval(timer)
+            }
+        }, 1000)
+    }
+
+
+</script>
