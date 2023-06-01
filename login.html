@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>登录</title>
+    <link rel="stylesheet" href="./css/login.css">
+    <script src="./js/js.js"></script>
+</head>
+
+<body>
+    <!-- 头部 -->
+    <header>
+        <div class="right">
+            <img src="./img/logo.jpg" alt="">
+        </div>
+        <div class="left">
+            <a href="#">
+                <img src="./img/my.jpg" alt="">
+            </a>
+            <a href="#">
+                <img src="./img/xiazai.jpg" alt="">
+            </a>
+        </div>
+    </header>
+    <section>
+
+        <span>首页</span> >
+
+        <span>我的</span>
+
+        >
+
+        <span>登录</span>
+
+    </section>
+    <div class="denglu">
+        <p class="bian">普通登录</p>
+        <p>验证码快捷登录</p>
+    </div>
+
+
+    <div class="af">
+        <div class="xi">
+            <ul>
+                <li>
+                    <input type="text" placeholder="请输入手机号">
+
+                </li>
+                <li>
+                    <input type="text" placeholder="请输入密码">
+
+                </li>
+            </ul>
+            <div class="btn">
+                <button>立即登录</button>
+            </div>
+            <div class="xia">
+                <a href="#">立即注册</a>
+                <a href="#">忘记密码</a>
+            </div>
+        </div>
+
+        <div class="xi">
+            <ul>
+                <li>
+                    <input type="text" placeholder="请输入手机号码">
+                    <a class="dian" href="#">发送验证码</a>
+                </li>
+                <li>
+                    <input type="text" placeholder="请输入短信中的验证码">
+
+                </li>
+            </ul>
+            <div class="btn">
+                <button>验证并登录</button>
+            </div>
+            <div class="xia">
+                <a href="#">立即注册</a>
+                <a href="#">忘记密码</a>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
+
+<script>
+    var p1 = document.getElementsByTagName('p')
+
+    var ddd = document.getElementsByClassName('xi')
+
+
+    for (var i = 0; i < p1.length; i++) {
+        p1[i].setAttribute('index', i)
+        p1[i].onclick = function () {
+            var lo = this.getAttribute('index')
+
+            for (var j = 0; j < p1.length; j++) {
+                p1[j].className = ''
+                p1[lo].className = 'bian'
+            }
+
+
+            for (var k = 0; k < ddd.length; k++) {
+                ddd[k].style.display = 'none'
+                ddd[lo].style.display = 'block'
+            }
+        }
+    }
+
+
+    var dian = document.getElementsByClassName('dian')[0]
+
+
+    dian.onclick = function () {
+        var i = 60
+        var timer = setInterval(function () {
+            i--
+            dian.innerHTML = '(' + i + '秒)重发'
+            if (i == 0) {
+                dian.innerHTML = '发送验证码'
+                clearInterval(timer)
+            }
+        }, 1000)
+    }
+
+
+
+
+
+
+
+</script>
