@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+body {
+    background-color: #F5F5F5;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    width: 100%;
+    height: 5rem;
+    background-color: #FF8A00;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header .right img {
+    width: 100%;
+    height: 3.4rem;
+
+}
+
+header .left img {
+    width: 2.7rem;
+    height: 2.8rem;
+    margin-left: 1.5rem;
+}
+
+/*  */
+.nav {
+    width: 100%;
+    line-height: 4rem;
+
+    background-color: #FFFFFF;
+}
+
+.nav>p {
+    margin-left: 3rem;
+}
+
+.nav>p>span {
+    font-family: "黑体";
+    font-weight: 3em;
+    font-size: 1.2rem;
+}
+
+
+
+
+.ul {
+    width: 100%;
+    /* background-color: #FFFFFF; */
+}
+
+.ul li {
+    display: flex;
+    padding: 0.2rem 0;
+    border-bottom: 1px solid red;
+}
+
+.ul li .ul_left {
+    flex: 1;
+    padding: 2rem;
+}
+
+.ul .ul_right {
+    width: 16rem;
+    flex: 3;
+    padding: 2rem;
+}
+
+.ul .ul_right h3 {
+    font-size: 1.6rem;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.ul .ul_right p:nth-of-type(1) {
+    font-size: 1.2rem;
+    padding: 0.5rem 0;
+    color: #000;
+    overflow: hidden;
+}
+
+.ul .ul_right p:nth-of-type(1) span {
+    color: #ff8a00;
+    float: right;
+}
+
+.ul .ul_right p:nth-of-type(2) {
+    color: #8b8b8b;
+    padding: 0.5rem 0;
+}
+
+.ul .ul_right p:nth-of-type(3) {
+    color: #8b8b8b;
+    padding: 0.5rem 0;
+}
+
+.ul .ul_right p:nth-of-type(2) span {
+    color: #FF8A00;
+}
+
+.ul .ul_right a {
+    color: #849aae;
+    background: #d9d9d9;
+    padding: 0.02rem 0.04rem;
+}
+
+li:nth-of-type(3) {
+    border-bottom: none;
+}

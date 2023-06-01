@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+.atife {
+    width: 100%;
+    /* position: fixed;
+    top: 0;
+    left: 0; */
+    /* background-color: aqua; */
+}
+
+.atife>.show>ul {
+    display: flex;
+    line-height: 4rem;
+    background-color: #FFFFFF;
+    justify-content: space-around;
+    border: 1px solid #CCCCCC;
+}
+
+.atife>.show>ul>li {
+    flex: 1;
+    line-height: 4rem;
+    text-align: center;
+}
+
+.atife>.show>ul>li>span {
+    border-top: 5px solid #ccc;
+    border-right: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    border-left: 5px solid transparent;
+}
+
+/* 要隐藏的部分 */
+.hide {}
+
+/* 区域隐藏部分 */
+.area {
+    display: flex;
+    /* display: none; */
+}
+
+.area>.left {
+    flex: 1;
+}
+
+.area>.left>p {
+    margin-left: 2rem;
+    line-height: 2rem;
+}
+
+.area>.left>p:first-of-type {
+    color: #ff8a00;
+    background: #fff;
+    margin-right: -1px;
+    border-right: 2px solid #fff;
+}
+
+.area>.right {
+    height: 30rem;
+    line-height: 4rem;
+    flex: 3;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+    background: #fff;
+}
+
+/* 月租隐藏部分 */
+.rent {
+    /* display: none; */
+}
+
+.rent>ul>li {
+    margin: 0 3rem;
+    line-height: 3rem;
+    border-bottom: 1px solid #CCCCCC;
+}
+
+/* 房型隐藏部分 */
+.type {
+    /* display: none; */
+}
+
+.type>ul>li {
+    margin: 0 3rem;
+    line-height: 3rem;
+    border-bottom: 1px solid #CCCCCC;
+}
+
+.type>ul>li>.ic {
+    border: 1px solid #ff8a00;
+    background: url(../img/ok.png) center center no-repeat;
+}
+
+.type>ul>li>span {
+    width: 1rem;
+    height: 1rem;
+    float: right;
+    margin-top: 1.12rem;
+    margin-right: 0.2rem;
+    border: 1px solid #c5c3c3;
+}
+
+.type>ul>.button {
+    width: 10rem;
+
+    margin: 0 auto;
+    background-color: #ff8a00;
+}
+
+.type>ul>.button>p {
+    line-height: 3rem;
+    text-align: center;
+}
+
+/* 更多 */
+.more {
+    /* display: none; */
+}
+
+.more>.unify>h3 {
+    padding: 2rem;
+    font-size: 1rem;
+}
+
+.more>.unify>ul {
+    display: flex;
+    border-bottom: 1px solid #c5c3c3;
+    flex-wrap: wrap;
+}
+
+.more>.unify>ul>li {
+    width: 6rem;
+    line-height: 3rem;
+    text-align: center;
+    margin-bottom: 2rem;
+    margin-left: 4rem;
+    border: 1px solid #c5c3c3;
+}
+
+.more>p {
+    line-height: 4rem;
+    text-align: center;
+    color: #c5c3c3;
+}
+
+.active {
+    font-size: 16pxpx;
+
+    color: #ff8a00;
+}

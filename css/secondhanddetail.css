@@ -1,0 +1,389 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+body {
+    background-color: #F5F5F5;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    width: 100%;
+    height: 5rem;
+    background-color: #FF8A00;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header .right img {
+    width: 10rem;
+    height: 3.4rem;
+}
+
+header .left img {
+    width: 2.7rem;
+    height: 2.8rem;
+    margin-left: 1.5rem;
+}
+
+/* 轮播 */
+
+.swiper {
+    width: 100%;
+    height: 12rem;
+}
+
+.swiper>.swiper-wrapper>.swiper-slide>img {
+    width: 100%;
+}
+
+.estate {
+    width: 100%;
+    background-color: #FFFFFF;
+    padding: 3rem;
+}
+
+.estate>h2 {
+    font-size: 1.2rem;
+    line-height: 3rem;
+}
+
+.estate>p:first-of-type {
+    color: #000;
+    font-size: 1rem;
+    line-height: 2rem;
+}
+
+.estate>p:first-of-type>span:nth-of-type(1) {
+    color: red;
+
+}
+
+.estate>p:first-of-type>span:nth-of-type(2) {
+    float: right;
+    display: block;
+    margin-right: 1rem;
+}
+
+.estate>p:first-of-type>span:nth-of-type(2)>img {
+    width: 1rem;
+}
+
+.estate>p:nth-of-type(2) {
+    color: #b0b0b0;
+    line-height: 2rem;
+}
+
+.estate>p:nth-of-type(3) {
+    line-height: 3rem;
+}
+
+.estate>p:nth-of-type(3)>span {
+    background-color: #DEE9F0;
+    padding: .5rem;
+    color: #b0b0b0;
+}
+
+/* 户型部分 */
+.type {
+    width: 100%;
+    margin: 2rem 0;
+    background-color: #FFFFFF;
+}
+
+.type>.table {
+    display: flex;
+    justify-content: space-around;
+}
+
+.type .table tr td {
+    flex: 1;
+    width: 50%;
+    line-height: 3rem;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.type>p {
+    line-height: 4rem;
+    text-align: center;
+    color: #999999;
+}
+
+/* 房源特色 */
+.feature {
+    width: 100%;
+    background-color: #FFFFFF;
+}
+
+.feature>h3 {
+    color: #FF9326;
+    line-height: 3rem;
+    margin: 0 3rem;
+}
+
+.feature>p:first-of-type {
+    margin: 0 3rem;
+    line-height: 3rem;
+    border-top: 1px solid #e5e5e5;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.feature>p:last-of-type {
+    line-height: 3rem;
+    text-align: center;
+    color: #999999;
+
+}
+
+/* 户型分间 */
+.feature>.flat {
+    display: flex;
+    border-top: 1px solid #e5e5e5;
+}
+
+.feature>.flat>.flat_left {
+    flex: 1;
+
+}
+
+.feature>.flat>.flat_left>img {
+    width: 12rem;
+    margin: 1rem 2rem;
+}
+
+.feature>.flat>.flat_right {
+    flex: 2;
+}
+
+.feature>.flat>.flat_right>h2 {
+    font-size: 1.6rem;
+}
+
+.feature>.flat>.flat_right>p:first-of-type {
+
+    line-height: 2rem;
+}
+
+.feature>.flat>.flat_right>p:last-of-type {
+    line-height: 7rem;
+}
+
+.feature>.flat>.flat_right>p:last-of-type>span {
+    padding: 1rem;
+    color: #849aae;
+    margin-right: 2rem;
+    background-color: #F4F7F9;
+}
+
+#flat {
+    border-top: 1px solid #FF8A00;
+}
+
+/* 对口学校 */
+.aboral {
+    width: 100%;
+    background-color: #FFFFFF;
+    margin: 2rem 0;
+}
+
+.aboral>h3 {
+
+    line-height: 3rem;
+    margin: 0 3rem;
+}
+
+.aboral>.aboral_top {
+    width: 90%;
+    margin: 0 auto;
+    /* background-color: #FF8A00; */
+}
+
+.aboral>.aboral_top>li {
+    line-height: 3rem;
+    border-top: 1px solid #e5e5e5;
+}
+
+.aboral>.aboral_top>.icon {
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.aboral>.aboral_top>li>span {
+    color: #999999;
+}
+
+.aboral>p {
+    line-height: 3rem;
+    text-align: center;
+    color: #999999;
+}
+
+/* 位置及周边 */
+.aboral>.images {
+    padding: 3rem;
+    border-top: 1px solid #e5e5e5;
+}
+
+.aboral>.images>img {
+    width: 100%;
+}
+
+/* 推荐房源 */
+.aboral>.nav>li {
+    display: flex;
+}
+
+.aboral>.nav>li>.image {
+    padding: 2rem;
+    flex: 1;
+}
+
+.aboral>.nav>li>.image>img {
+    width: 100%;
+}
+
+.aboral>.nav>li>.text {
+    padding: 2rem;
+    flex: 3;
+}
+
+.aboral>.nav>li>.text>h3 {
+    width: 100%;
+    font-size: 1.2rem;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.aboral>.nav>li>.text>p:first-of-type>span {
+    float: right;
+    color: #FF8A00;
+}
+
+.aboral>.nav>li>.text>p:nth-of-type(2) {
+    line-height: 3rem;
+    color: #8B8B8B;
+}
+
+.aboral>.nav>li>.text>p:nth-of-type(2)>span {
+    float: right;
+}
+
+.aboral>.nav>li>.text>p:last-of-type>span {
+    padding: .5rem;
+    color: #849aae;
+    background: #f4f7f9;
+}
+
+.aboral>.nav>.tips {
+    line-height: 4rem;
+    background-color: #f2f2f2;
+    margin-left: 2rem;
+    position: relative;
+}
+
+
+.aboral>.nav>.tips>span {
+    position: absolute;
+    top: -16px;
+    left: 0;
+    border-top: 1rem solid transparent;
+    border-right: 1rem solid transparent;
+    border-bottom: 1rem solid #f2f2f2;
+    border-left: 1rem solid transparent;
+    z-index: 10;
+}
+
+
+
+/* 底部部分 */
+/* 底部部分 */
+footer {
+    width: 100%;
+    height: 16rem;
+    background-color: #2F3130;
+}
+
+footer h2 {
+    font-size: 1.5rem;
+    height: 3rem;
+    line-height: 3rem;
+    color: #939494;
+    border-bottom: 1px solid #3e403f;
+}
+
+footer .content ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+footer .content ul li {
+    flex: 1;
+    text-align: center;
+    display: flex;
+    justify-items: center;
+    margin-top: 2rem;
+}
+
+footer .content ul li img {
+    width: 3.7rem;
+    height: 4.3rem;
+    margin-right: 0.16rem;
+    margin-left: 4rem;
+}
+
+footer .content ul li .ri {
+    margin-left: 1rem;
+}
+
+footer .content ul li .ri p {
+    color: #939494;
+}
+
+footer .content .text {
+    margin-top: 1rem;
+    line-height: 2rem;
+    text-align: center;
+}
+
+footer .content .text p {
+    color: #939494;
+}
+
+
+/* 联系经纪人 */
+.swrich {
+    width: 100%;
+    line-height: 6rem;
+    text-align: center;
+    display: flex;
+    padding: 2rem;
+}
+
+.swrich>p:first-of-type {
+    flex: 2;
+
+    background-color: #FF8A00;
+
+}
+
+.swrich>p:last-of-type {
+    flex: 1;
+}
