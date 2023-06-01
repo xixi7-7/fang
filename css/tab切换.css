@@ -77,9 +77,9 @@ li {
 }
 
 /* 月租隐藏部分 */
-.rent {
-    /* display: none; */
-}
+/* .rent {
+    display: none;
+} */
 
 .rent>ul>li {
     margin: 0 3rem;
@@ -88,9 +88,9 @@ li {
 }
 
 /* 房型隐藏部分 */
-.type {
-    /* display: none; */
-}
+/* .type {
+    display: none;
+} */
 
 .type>ul>li {
     margin: 0 3rem;
@@ -125,9 +125,9 @@ li {
 }
 
 /* 更多 */
-.more {
-    /* display: none; */
-}
+/* .more {
+    display: none;
+} */
 
 .more>.unify>h3 {
     padding: 2rem;

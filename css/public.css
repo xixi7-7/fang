@@ -232,7 +232,7 @@ footer .content .text p {
 
 /*  */
 
-.nav {
+/* .nav {
     position: fixed;
     top: 0;
     left: 0;
@@ -240,7 +240,7 @@ footer .content .text p {
 
 }
 
-.nav>.acc {
+*/ .nav>.acc {
     display: flex;
 }
 
